@@ -7,7 +7,7 @@ region = "us-east-1"
 resource "aws_instance" "instance" {
   ami           = "ami-0c7217cdde317cfec"  # Specify the AMI ID
   instance_type = "t2.micro"      # Specify the instance type
-  key_name      = "course=terraform" 
+  key_name      = "y" 
 }
 
 #vpc
